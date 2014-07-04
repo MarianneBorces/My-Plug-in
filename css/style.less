@@ -1,0 +1,16 @@
+@dark : #000;
+@light : #ddd;
+
+ul{
+	&.myul {
+		border: 1px solid @dark;
+	}
+
+	li{
+		list-style: none;
+		&:nth-child(odd)
+		{
+			background: @light;
+		}
+	}
+}
